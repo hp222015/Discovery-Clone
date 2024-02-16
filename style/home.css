@@ -31,9 +31,7 @@
   nav ul li{
       list-style: none;
       display: inline-block; 
-       margin-left: 40px; 
-    
-  
+       margin-left: 40px;   
   }
   nav ul li a{
       text-decoration: none;
@@ -42,15 +40,16 @@
   
   }
   .content{
-      text-align:center;  
+      position: absolute;
+      left:200px;
+      padding: 5px 5px 5px 5px;
       display:flex;
-      flex-direction: column;    
+      flex-direction:column;
 
   }
   .content h5{
-      font-size: 60px;
+      font: 90.512px gt-sectra;
       color:#fff;
-      font-weight:100;
       /* display: flex;
       flex-direction: row;
       justify-content: center; */
@@ -58,34 +57,100 @@
       text-align: start;
       position: relative;
       transform: translate(0px,0px);
-      font-style:unset;
-  }
-  .content h1{
-    color: lightgray;
-    font-size: medium;
   }
   .back-video{
       position: absolute;
       right: 0;
       bottom: 0;
       z-index: -1;  
-  }
+  }  
   .screen2{
     background-image: url("/assets/bg2.jpg");
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
     background-size: cover;
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
   }
-  #i1{
-    margin-top: 100px; 
+  
+  .sec1{
+    height:100vh;
+  }
+  .sec1a{
+    margin-left: 50px;
     margin-bottom: 50px;
-    margin-right: 150px;
+  }
+
+  #si1{
+    font: 47.0507px gt-sectra;
+    font-weight: bolder;
+  }
+
+  #si2{
+    font: 42.3456px gotham;
+    font-weight: normal;
+  }
+
+  .s1{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  #i1{
+    width: 600px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-left: 100px;
   }
   #i2{
-    margin-top: 300px; 
+    width: 500px;
+    height: 400px;
+    margin-top: 50px; 
     margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px
   }
+  p{
+    letter-spacing: 1px;
+    color: #777777;
+    font-size: medium;
+  }
+  .screen3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-bottom: 300px;
+
+  }
+  .screen-A{    
+    width:100vw;
+    height:20vh;
+    display:flex;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+  }
+  .screen-a1{
+    align-self: flex-start;
+    padding-left: 100px;
+    width: 300px;
+  }
+  .screen-a2{
+    align-self: flex-end;
+    display:flex;
+    margin-right:50px;
+  }
+  .screen4{
+    width: 100vw;
+    height: 100vh;
+   
+  }
+  .sec4a{
+    display: flex;
+    justify-content: space-between;
+  }
+
