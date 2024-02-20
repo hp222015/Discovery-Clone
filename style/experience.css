@@ -1,0 +1,276 @@
+*{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: 'poppins',sans-serif;
+  }
+body{
+      overflow-x: hidden;
+}
+
+nav ul li a:hover{
+      text-decoration: underline;
+    }
+  
+    .top{
+        width: 100%;
+        height: 100vh;
+        background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)) ;
+        position: relative;
+        padding: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav{
+        width:100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px 8%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+    }
+    .menu{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width:30px;
+      height:20px;
+    }
+    .line{
+      width:100%;
+      height:4px;
+      background-color: white;
+    }
+    nav .logo{
+        width: 200px;
+    }
+    .scroll{
+      position: absolute;
+       bottom:50px; 
+       left:50px; 
+       color:lightgray;
+       font-size: large;
+    }
+  
+    .downarrow{
+      position: absolute;
+      bottom:50px;
+      right:50px;
+      transform: rotate(90deg);
+      mix-blend-mode: multiply;
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    
+    nav ul li{
+        list-style: none;
+        display: inline-block; 
+         margin-left: 40px;   
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size:17px ;
+    
+    }
+    .content{
+        position: absolute;
+        left:200px;
+        padding: 5px 5px 5px 5px;
+        display:flex;
+        flex-direction:column;
+  
+    }
+    .content h5{
+        font: 90.512px gt-sectra;
+        color:#fff;
+        display: block;
+        text-align: start;
+        position: relative;
+        transform: translate(0px,0px);
+    }
+    .back-video{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;  
+    }  
+    .screen2{
+      display:flex;
+      justify-content: center;
+      margin-top: 200px;      
+      margin-bottom: 200px;
+    }
+    .screen2 p{      
+      font-size: 30px;
+      line-height: 2;
+      text-align:center;
+    }
+
+    .screen3{
+      width:100vw;
+      height:120vh;
+      display:flex; 
+      justify-content:space-around;
+      margin-bottom:200px;
+  }
+
+  .screen4{
+    margin-top: 120px;
+    border: 0px solid black;
+    background-color:lightgray;
+    margin-bottom: 150px;
+
+}
+
+.golf-container{
+display: flex;
+}
+
+.golf-image img{
+ width: 74vw;
+ margin-top: 120px;
+ border-right:50px solid bisque;
+ border-bottom:50px solid bisque;
+}
+
+.golf-text-box{
+    border: 0px solid black;
+    width: 39vw;
+    height: 77vh;
+    background-color: white;
+    margin-left: -300px;
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.golf-text{
+    color: #000000;
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+    padding-top: 1rem;
+    font-size: 2.4rem;
+    font-weight: lighter;
+    line-height: 1.1;
+    transform: translate(0rem, 0.2rem);
+    border: 0px solid blue;
+}
+.commission-text{
+    color: #777;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    line-height: 2;
+    border: 0px solid red;
+    margin-left: -10px;
+}
+.explore-tab{
+    margin-top: 25px;
+    width: 12vw;
+    height: 9vh;
+    border-radius: 0px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.screen5 {
+  position: relative; /* Establishes the positioning context */
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.outdoor_text {
+  background-color: white;
+  position: absolute; /* Positions the text absolutely within .screen5 */
+  top: 50%; /* Adjusts the position from the top */
+  padding-top: 100px;
+  transform: translate(0, -50%); /* Vertically centers the text block */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 50px;
+  width: 40vw;
+  height: 70vh;
+  z-index: 2; /* Ensures the text appears above the image */
+}
+
+.outdoor_text p{
+  color:gray;
+  line-height: 1.5;
+  font-size: large;
+}
+.oi1 {
+  position: absolute;   /* Positions the image absolutely within .screen5 */
+  top: 0;
+  right: 0;   /* Aligns the image to the right */
+  width: 90vw;
+  height: 100vh;
+  border-left: 50px solid gray;
+  border-bottom: 50px solid gray;
+  z-index: 1; /* Ensures the image is below the text */
+}
+#e2{
+  width:100px;
+  height:40px;
+  background-color: white;
+  border: 2px solid gray;
+}
+
+.screen9{
+  margin-top: 200px;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://discoverylandco.com/imager/images/160/What_we_do_footer_2_5dabbd1a34149dcaed83515ff1526a0f.jpg");
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+}
+.custom-button {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 2px solid white; 
+  color: white;
+  font-size: 18px;
+  transition: box-shadow 0.3s;
+}
+.custom-button:hover{
+  box-shadow: 0 0 10px white;
+}
+footer{
+width:100vw;
+height:70vh;
+background-color: black;
+padding:70px;
+display: flex;
+}
+.contact{
+display:flex;
+flex-direction: column;
+gap: 30px;
+}
+.footersec2{
+position:absolute;
+right:70px;
+display:flex;
+gap:40px; 
+}
+.pagesec{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.pagesec label{
+color: white;
+}

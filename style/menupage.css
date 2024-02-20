@@ -1,0 +1,18 @@
+body{
+      background-color: black;
+}
+#I1{
+width:40px; 
+height:40px;}
+
+#I2{
+      position:absolute; 
+      right:20px;
+}
+.items{
+      display:flex; 
+      flex-direction:column; 
+      justify-content:center; 
+      align-items: center; 
+      color:white;
+}

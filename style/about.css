@@ -4,7 +4,7 @@
       box-sizing: border-box;
   }
   body{
-    overflow-x: hidden;
+      overflow-x: hidden;
   }
 
   .top{
@@ -111,85 +111,106 @@
 
   }
   .screen4{
-    width: 100vw;
-    height: 100vh;
-    margin-bottom: 200px;
-   
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 5vh;
+      margin-bottom: 250px;
   }
   .screen-A{    
       width:100vw;
       height:20vh;
       display:flex;
-      justify-content: space-between;
+      justify-content: space-around;
       margin-left:50px;
       margin-right:50px;
     }
-    .screen-a1{
-      align-self: flex-start;
-      padding-left: 100px;
-      width: 300px;
-    }
     .screen-a2{
-      align-self: flex-end;
       display:flex;
-      margin-right:50px;
     }
     
-  .sec4a{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  #l1{
-    color: gray;
-  }
-  .weather{
-    display:flex; 
-    flex-direction: column;
-    gap: 10px;
-  }
-  .screen5{
-    width: 100vw;
-    height: 100vh;
-    margin-top: 300px;
-    display: flex;
-    justify-content: space-around;
+    .screen5{
+      width:100vw; 
+      height:100vh;
+      margin-top: 100px;
+      margin-bottom: 250px;
+    }
     
-  }
-  .exp{
-    width:33vw;
-    background-image: url("../assets/Experiences.jpg");
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    color: white;
-  }
-  .life{
-    width: 33vw;
-    background-image: url("../assets/Wellness.jpg");
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    color: white;
+    .screen6{
+      display:flex;
+      flex-direction: column;
+      padding: 100px;
+      width: 100vw;
+      height: 200vh;
+      background-color: black;
+      margin-bottom: 250px;
+      align-items: center;
+      gap: 100px;
+    }
 
-  }
-  .well{
-    width: 34vw;
-    background-image: url("../assets/lifestyle.jpg");
-    text-align: center;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center;
-    color: white;
-  }
-  .arr{
-    mix-blend-mode:multiply;
-  }
+    .videotext{
+      display:flex;
+      flex-direction: column;
+      color: white;
+      gap: 50px;
+    }
+
+    .videotext p{
+      color: white;
+      line-height: 2;
+      font-size: medium;
+    }
+    
+    .video{
+      padding: 50px 50px 50px 50px;
+    }
+
+    .screen7{
+      width: 100vw;
+      height: 100vh;
+      margin-bottom: 250px;
+    }
+    .screen8{
+      width: 100vw;
+      height: 100vh;
+      display:flex;
+      justify-content:center;
+      gap: 100px;
+      margin-bottom: 250px;
+    }
+    .db{
+      display:flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .buildtext p{
+      color:gray;
+      line-height: 1.5;
+    }
+    .screen9{
+      width: 100vw;
+      height: 70vh;
+      display: flex;
+      flex-direction: column;
+      background-image: url("https://discoverylandco.com/imager/images/160/What_we_do_footer_2_5dabbd1a34149dcaed83515ff1526a0f.jpg");
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .custom-button {
+      width: 200px;
+      height: 50px;
+      background-color: transparent;
+      border: 2px solid white; 
+      color: white;
+      font-size: 18px;
+      transition: box-shadow 0.3s;
+    }
+    .custom-button:hover{
+      box-shadow: 0 0 10px white;
+    }
   footer{
     width:100vw;
     height:70vh;
